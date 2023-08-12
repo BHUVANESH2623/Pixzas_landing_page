@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #171717;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+    justify-content: space-between;
+    border-bottom: 1px solid #2b2a2a;
+}
+
+
+.navbar .left{
+    color: whitesmoke;
+    padding-left: 40px;
+    display: flex;
+    flex: 2;
+    cursor: pointer;
+    font-size: 18px;
+}
+.navbar .left img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.navbar .center{
+    display: flex;
+    padding: 5px;
+    color:gray;
+    font-weight: 600;
+    gap: 40px;
+    flex: 6;
+}
+.navbar .center :hover , .right :hover {
+    cursor: pointer;
+    color: white;
+}
+.navbar .right{
+    display: flex;
+    color: white;
+    gap: 20px;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex: 3.5;
+}
+
+ .right .button button{
+    color: whitesmoke;
+    width: 70px;
+    border: none;
+    background-color: #45d992;
+    padding: 10px;
+    border-radius: 5px;
+}
+.right .button :hover{
+    background-color: #1e6e47;
+}
+
+.connect {
+    border:  1px solid #2b2a2a;
+    border-radius: 5px;
+    padding: 7.5px  10px ;
+    color: whitesmoke;
+    display: flex;
+    gap: 20px;
+}
+.connect img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border: none;
+}
+
+.navbar .right .logo{
+    border:  1px solid #2b2a2a;
+    border-radius: 5px;
+    padding:  7.5px ;
+    display: flex;
+    gap: 5px;   
+}
+.navbar .right .logo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    padding:50px 90px;
+    margin: 10px;
+    gap: 20px;
+    color: whitesmoke;
+}
+
+.landing h1{
+    font-size: 60px;
+}
+.landing p{
+    font-size: 20px;
+    color: lightgray;
+}
+
+.lan-but button{
+    color: whitesmoke;
+    width:  fit-content;
+    border: none;
+    background-color: #45d992;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lan-but  :hover{
+    background-color: #1e6e47;
+}
+
+
+.boxes{
+    padding:0px 90px;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 60px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.box{display: flex;
+    gap: 30px;
+    align-items: center;
+    box-sizing: border-box;
+    border:  1px solid #2b2a2a;
+    color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+
+    /* -webkit-box-shadow: 2px -1px 19px 2px rgba(224,217,224,0.73);
+    -moz-box-shadow: 2px -1px 19px 2px rgba(45, 44, 45, 0.73);
+    box-shadow: 2px -1px 19px 2px rgba(57, 56, 57, 0.73); */
+}
+.box h4{
+    color: lightgray;
+}
+.box img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border: none;
+}
+.values{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+hr{
+    border:1px solid #2b2a2a;
+    /* margin-bottom: 100px; */
+}
+
+.componants{
+    display: flex;
+    color: whitesmoke;
+    padding: 90px;
+    gap: 100px;
+}
+.componant{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.componant .topic{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.componant .topic img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border: none;
+}
+
+.desc p{
+    color: lightgray;
+    font-size: 18px;
+}
+
+.tokens-field{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    color: white;
+    gap: 30px;
+}
+
+.tokens-field h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.tokens{
+    display: flex;
+    gap: 20px;
+}
+
+.token{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #2b2a2a;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.token .topic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.token .topic img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: none;
+}
+
+.token p{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.token span{
+    color: lightgray;
+}
+
+.token .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buy button{
+    color: whitesmoke;
+    width: 60px;
+    border: none;
+    background-color: #45d992;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy :hover{
+    background-color: #1e6e47;
+}
+
+.read button{
+    color: whitesmoke;
+    width: 100px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px; 
+    cursor: pointer;  
+}
+
+.read :hover{
+    background-color:  rgba(73, 74, 74, 0.578);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.logos {
+    display: flex;
+    gap: 50px;
+}
+
+.logos .logo img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    cursor: pointer;
+    border: none;
+}
+
+.texts{
+    display: flex;
+    color: lightgray;
+    gap: 20px;
+    cursor: pointer;
+}
+.texts :hover{
+    color: white;
+}
